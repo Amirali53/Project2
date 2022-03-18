@@ -1,6 +1,5 @@
 setup:
 	python3 -m venv ~/.Project2
-	source ~/.Project2/bin/activate
 	
 install:
 	pip install --upgrade pip &&\
