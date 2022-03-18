@@ -17,8 +17,27 @@ It is critical to have an effective project plan and task tracking, In this sect
 
 Go to the azure portal in your browser:
 ```
-portal.azure.com
+git clone git@github.com:Amirali53/Amirali53.git
+cd Project2
+make setup
+source ~/.Project2/bin/activate
+make all
+python app.py
 ```
+
+
+in new browser:
+```
+./make_prediction.sh
+```
+
+```
+az webapp up -l westeurope  -n amir-flaskpipelines -g amir-udacity-rg
+./make_predict_azure_app.sh
+
+```
+
+
 ![_](Screenshots/_.PNG) 
 
 In the Azure Portal, select Azure Cloud Shell:
