@@ -45,8 +45,8 @@ make all
 ```
 Running the command above will install the contents of requirement.txt file for python. After Installation the lint and test will follow.
 Now you can run the python app for first validation:
-```
 ![_](Screenshots/MakeAll.png) 
+```
 python app.py
 ```
 ![_](Screenshots/05_RunAppLocally.png) 
