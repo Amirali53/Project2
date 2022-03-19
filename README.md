@@ -1,3 +1,4 @@
+![_](Screenshots/PythonPassing.png) 
 # Overview
 
 In this project, you will build a Github repository with a python ML app for prediction of housing prices. A data based ML model is already traiend with data and is available. You have to enable Github actions for CI linting and testing. Aferward you will deploy a flask python app and by using CD in Azure pipeline you will automate the app deployment. 
@@ -10,6 +11,7 @@ In this section you find the project planning and tasks:
 
 
 ## Instructions
+![_](Screenshots/Architecture.png) 
 - User pushes changes in code
 - Github Actions lint and test the changes automatically
 - Azure pipeline test the code and deploy it to App service
