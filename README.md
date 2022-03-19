@@ -5,7 +5,7 @@ In this project, you will build a Github repository .....
 ## Project Plan
 It is critical to have an effective project plan and task tracking, In this section you find:
 
-* A [Trello](https://trello.com/) board for the project
+* A [Trello](https://trello.com/b/rJP5K6yR/udacityprojekt2) board for the project
 * A [spreadsheet](https://github.com/) that includes the original and final project plan
 
 
