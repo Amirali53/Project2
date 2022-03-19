@@ -21,7 +21,7 @@ Go to the azure portal in your browser and open the Azure Cloud shell.
 You need to connect your Cloud shell to Github by using SSH keys generated once in Cloud shell and set up in the Github account.
 After connection established you can clone the git repo by using this command:
 ```
-git clone git@github.com:Amirali53/Amirali53.git
+git@github.com:Amirali53/Project2.git
 ```
 After cloning is completed you need to switch to the following directory:
 ```
