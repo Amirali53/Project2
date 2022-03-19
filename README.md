@@ -10,8 +10,10 @@ In this section you find the project planning and tasks:
 
 
 ## Instructions
-
-![_.PNG](Screenshots/_.PNG)
+- User pushes changes in code
+- Github Actions lint and test the changes automatically
+- Azure pipeline test the code and deploy it to App service
+- App service is continousely updated and tested
 
 ## Deploy the app in Azure Cloud Shell
 
