@@ -31,7 +31,8 @@ stages:
   jobs:
   - job: BuildJob
     pool:
-      vmImage: $(vmImageName)
+    displayName: local
+#      vmImage: $(vmImageName)
     steps:
     - task: UsePythonVersion@0
       inputs:
