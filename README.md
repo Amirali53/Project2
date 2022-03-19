@@ -34,7 +34,7 @@ in new browser:
 ```
 az webapp up -l westeurope  -n amir-flaskpipelines -g amir-udacity-rg
 ./make_predict_azure_app.sh
-
+az webapp log tail -n amir-flaskpipelines -g amir-udacity-rg
 ```
 
 
