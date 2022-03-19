@@ -6,7 +6,7 @@ In this project, you will build a Github repository .....
 It is critical to have an effective project plan and task tracking, In this section you find:
 
 * A [Trello](https://trello.com/b/rJP5K6yR/udacityprojekt2) board for the project
-* A [spreadsheet](https://github.com/) that includes the original and final project plan
+* A [spreadsheet](https://github.com/Amirali53/Project2/blob/62553a880ea0e07507fc0ba2a5d7652843b20104/Project2_Planning.xlsx) that includes the original and final project plan
 
 
 ## Instructions
@@ -44,10 +44,7 @@ In the Azure Portal, select Azure Cloud Shell:
 
 ![_](Screenshots/_.PNG) 
 
-In Azure Cloud Shell, clone the repo:
-```
-git clone git@github.com:_____.git
-```
+
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
