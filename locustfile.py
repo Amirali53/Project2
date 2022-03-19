@@ -16,4 +16,4 @@ class QuickstartUser(HttpUser):
             time.sleep(1)
 
     def on_start(self):
-        self.client.post("https://amir-flaskpipelines.azurewebsites.net"})
+        self.client.post("https://amir-flaskpipelines.azurewebsites.net")
