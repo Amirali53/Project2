@@ -104,7 +104,7 @@ locust
 ![_](Screenshots/locustInstal.png)
 Open a browser and go to http://localhost:8089. Enter the total number of users to simulate, spawn rate, set the host to https://amir-flaskpipelines.azurewebsites.net/, and click Start Swarming:
 ![_](Screenshots/LocustView.png)
-![_](Screenshots/LocustView.png)
+![_](Screenshots/LocustPlotas.png)
 
 
 ## Enhancements
