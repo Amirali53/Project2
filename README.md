@@ -109,7 +109,7 @@ Open a browser and go to http://localhost:8089. Enter the total number of users 
 
 ## Enhancements
 
-You could improve the project to use Github Actions instead of Azure
+You Could add locust to your pipeline to check the load during deployments. You could also improve the project to work with gitflow, so that the code could continue to be deployed in the corresponding environment e.g. Development, production when you commit to a specific branch.
 
 ## Demo 
 
