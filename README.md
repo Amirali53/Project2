@@ -1,4 +1,4 @@
-![_](Screenshots/PythonPassing.png) 
+[![Actions Status](https://github.com/Amirali53/Project2/workflows/Python_application_test_with_Github_Actions/badge.svg)](https://github.com/Amirali53/Project2/actions) 
 # Overview
 
 In this project, you will build a Github repository with a python ML app for prediction of housing prices. A data based ML model is already traiend with data and is available. You have to enable Github actions for CI linting and testing. Aferward you will deploy a flask python app and by using CD in Azure pipeline you will automate the app deployment. 
