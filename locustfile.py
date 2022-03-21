@@ -1,12 +1,19 @@
+import time
 from locust import HttpUser, task, between
 
-class WebsiteTestUser(HttpUser):
-    wait_time = between(0.5, 30.0)
+class QuickstartUser(HttpUser):
+    wait_time = between(1, 5)
 
-    @task(1)
-    def test1(self):
-        self.client.get("https://amir-flaskpipelines.azurewebsites.net")
+    @task
+    def hello_world(self):
+        self.client.get("/hello")
+        self.client.get("/world")
 
-    @task(2)
-    def test2(self):
-        self.client.post("https://amir-flaskpipelines.azurewebsites.net:443/predict")
+    @task(3)
+    def view_items(self):
+        for item_id in range(10):
+            self.client.get("https://amir-flaskpipelines.azurewebsites.net")
+            time.sleep(1)
+
+    def on_start(self):
+        self.client.post("https://amir-flaskpipelines.azurewebsites.net")
